@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #7b7c7c;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    height: 80vh;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+}
+
+.left {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.right {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button, .google-btn {
+    width: 50%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+
+.google-btn {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.remember-forgot {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px; 
+}
+
+.remember-forgot label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.forgot-link {
+    text-decoration: none;
+    color: #007bff;
+  
+    
+}
+.signup-container {
+    flex: 1; 
+    padding: 20px;
+    background-color: #b3caff; 
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 350px; 
+    margin: auto; 
+}
+
+
+.signup-container  input[type="text"],
+.signup-container  input[type="password"] {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.signup-container  button, .google-btn {
+    width: 100%; 
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+.google-btn{
+    width: 50%;
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+
+}
